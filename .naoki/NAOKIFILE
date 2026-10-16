@@ -26,7 +26,7 @@ WORKFLOWS:
     TIMEOUT: "30m"
   SCRIPTS:
     SETUP:
-      - RUN: npm ci --prefer-offline || npm install
+      - RUN: sleep 100 && (npm ci --prefer-offline || npm install)
     RUN:
       - RUN: npm run dev
     CHECK:
