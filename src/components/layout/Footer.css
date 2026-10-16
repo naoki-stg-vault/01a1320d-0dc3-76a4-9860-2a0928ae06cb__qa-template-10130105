@@ -1,0 +1,11 @@
+.footer {
+  padding: 1.5rem 1rem;
+  margin-top: 2rem;
+  border-top: 1px solid rgba(136, 136, 136, 0.3);
+}
+
+.footer p {
+  margin: 0;
+  font-size: 0.9rem;
+  color: #888;
+}
